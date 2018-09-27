@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{56BA7A00-7778-4EA9-87DA-0F0E7F393725}</ProjectGuid>
+    <ProjectGuid>{58FB9575-2C72-4F6D-81EF-5E558F6CC26F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ex1</RootNamespace>
-    <AssemblyName>ex1</AssemblyName>
+    <RootNamespace>ex12</RootNamespace>
+    <AssemblyName>ex12</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,23 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exercises\Exercise4.cs" />
-    <Compile Include="Exercises\Exercise1.cs" />
-    <Compile Include="Exercises\Exercise10.cs" />
-    <Compile Include="Exercises\Exercise2.cs" />
-    <Compile Include="Exercises\Exercise9.cs" />
-    <Compile Include="Exercises\Exercise11.cs" />
-    <Compile Include="Exercises\Exercise6.cs" />
-    <Compile Include="Exercises\Exercise3.cs" />
-    <Compile Include="Exercises\Exercise5.cs" />
-    <Compile Include="Exercises\Exercise7.cs" />
-    <Compile Include="Exercises\Exercise12.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

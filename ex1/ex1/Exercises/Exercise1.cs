@@ -9,9 +9,15 @@ namespace ex1.Exercises
 {
     internal class Exercise1
     {
-        public void Implement()
+        public static void ReverseArray()
         {
-            ArrayHelpers.ReverseArray();
-        }
+            char[] arr = {'b', 'a', 't'};
+            var arrReversed = arr.Reverse();
+            foreach (int element in arrReversed)
+            {
+                Console.WriteLine(element);
+            }
+            Console.ReadLine();
+        }   
     }
 }
