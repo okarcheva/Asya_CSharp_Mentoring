@@ -12,15 +12,16 @@ namespace ex1
         {
             //Exercises.Exercise1.ReverseArray();
             //Exercises.Exercise2.CulculateFormula();
-            ////Exercises.Exercise3.DigitVowel();
-            Exercise4.EvenOrOdd();
+            //Exercises.Exercise3.DigitVowel();
+            //Exercise4.EvenOrOdd();
             //Exercises.Exercise5.GreatestNumber();
-            ////Exercises.Exercise6.SubjectsMarks();
-            ////Exercises.Exercise7.GradeEquivalentDescription();
-            ////Exercises.Exercise9.MaxElementOfArray();
-            //Exercises.Exercise10.ReverseArray();
-            ////Exercises.Exercise11.FormatDataTime();
-            ////Exercises.Exercise12.DataTimeAddDays();
+            //Exercises.Exercise6.SubjectsMarks();
+            //Exercises.Exercise7.GradeEquivalentDescription();
+            //Exercises.Exercise9.MaxElementOfArray();
+            Exercises.Exercise10.ReverseArray();
+            //Exercises.Exercise11.FormatDataTime();
+            //Exercises.Exercise12.DataTimeAddDays();
+
 
         }
     }

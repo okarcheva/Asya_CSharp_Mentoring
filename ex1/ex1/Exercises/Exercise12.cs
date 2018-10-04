@@ -10,9 +10,9 @@ namespace ex1.Exercises
     {
         public static void DataTimeAddDays()
         {
-            DateTime dt = DateTime.Now;
+            var dt = DateTime.Now;
             Console.WriteLine(dt.AddDays(40));
-           
+            Console.WriteLine(dt.AddDays(40).ToString("dddd"));
             Console.ReadLine();
         }
     }

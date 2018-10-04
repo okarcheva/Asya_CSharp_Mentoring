@@ -10,11 +10,12 @@ namespace ex1.Exercises
     {
         public static void FormatDataTime()
         {
-            DateTime now = DateTime.Now;
-            Console.WriteLine( now.ToString("F"));
-            Console.WriteLine(now.ToString("D"));
-            Console.WriteLine(now.ToString("M/d/yy"));
-            Console.WriteLine(DateTime.UtcNow);
+            var now = DateTime.Now;
+            var utcTime = DateTime.UtcNow;
+            Console.WriteLine(now.ToString("ddd dd MMM, yyyy"));
+            Console.WriteLine(now.ToString("dddd dd MMM, yyyy HH:mm:ss"));
+            Console.WriteLine(now.ToString("mm'/'dd'/'yyyy"));
+            Console.WriteLine(utcTime);
             Console.ReadLine();
         }
     }

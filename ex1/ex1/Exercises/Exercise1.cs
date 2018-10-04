@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ex1.Helpers;
+
 
 namespace ex1.Exercises
 {
@@ -18,6 +18,14 @@ namespace ex1.Exercises
                 Console.WriteLine(element);
             }
             Console.ReadLine();
-        }   
+
+            Exercise7.GradeEquivalentDescription();
+        }
+
+        internal static void PlayWithParams(int count = 0, int[] parameters = null)
+        {
+            var sum = parameters.Sum();
+            Console.WriteLine(sum);
+        }
     }
 }

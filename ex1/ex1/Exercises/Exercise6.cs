@@ -10,6 +10,13 @@ namespace ex1.Exercises
     {
         public static void SubjectsMarks ()
         {
+            const int m = 65;
+            const int p = 55;
+            const int c = 50;
+            const int cmp = 180;
+            const int mp = 140;
+            const int mc = 140;
+
             Console.WriteLine("Enter Maths balls:");
             var maths = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter Phy balls:");
@@ -17,8 +24,8 @@ namespace ex1.Exercises
             Console.WriteLine("Enter Chem balls:");
             var chem = int.Parse(Console.ReadLine());
 
-            if ((maths >= 65 && phy >= 55 && chem >= 50 && chem + maths + phy >= 180) ||
-                (maths + phy >= 140 && maths + chem >= 140))
+            if ((maths >= m && phy >= p && chem >= c && chem + maths + phy >= cmp) ||
+                (maths + phy >= mp && maths + chem >= mc))
             {
                 Console.WriteLine($"chem + maths + phy={chem + maths + phy}");
                 Console.WriteLine($"maths + phy={maths + phy}");
@@ -29,9 +36,6 @@ namespace ex1.Exercises
             else
             {
                 Console.WriteLine("You are Not good!");
-                Console.WriteLine($"chem + maths + phy={chem + maths + phy}");
-                Console.WriteLine($"maths + phy={maths + phy}");
-                Console.WriteLine($"maths + chem={maths + chem}");
             }
             Console.ReadLine();
 
