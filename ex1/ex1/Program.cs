@@ -18,9 +18,11 @@ namespace ex1
             //Exercises.Exercise6.SubjectsMarks();
             //Exercises.Exercise7.GradeEquivalentDescription();
             //Exercises.Exercise9.MaxElementOfArray();
-            Exercises.Exercise10.ReverseArray();
+            //Exercises.Exercise10.ReverseArray();
             //Exercises.Exercise11.FormatDataTime();
             //Exercises.Exercise12.DataTimeAddDays();
+            //Exercises.Exercise13.DateCompare();
+            Exercises.Exercise14.Hours();
 
 
         }
