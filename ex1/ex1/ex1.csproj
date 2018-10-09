@@ -42,8 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exercises\EnumSchoolSubjects.cs" />
     <Compile Include="Exercises\Exercise13.cs" />
     <Compile Include="Exercises\Exercise14.cs" />
+    <Compile Include="Exercises\Exercise1OOP.cs" />
+    <Compile Include="Exercises\Exercise2OOP.cs" />
     <Compile Include="Exercises\Exercise4.cs" />
     <Compile Include="Exercises\Exercise1.cs" />
     <Compile Include="Exercises\Exercise10.cs" />
