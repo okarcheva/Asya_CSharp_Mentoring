@@ -9,16 +9,15 @@ namespace ex1.Exercises
 {
     class Employee
     {
-        private double _salary;
         private string _name;
         public string Name
         {
-            get { return _name; }
+            get => _name;
             set
             {
                 if (value.Length>20)
                 {
-                    Console.WriteLine($"Shoul be not more than 20 characters");
+                    Console.WriteLine($"Name should be not more than 20 characters");
                 }
                 else
                 {
@@ -36,7 +35,7 @@ namespace ex1.Exercises
                 if (value.Length>20)
 
                 {
-                    Console.WriteLine($"Shoul be not more than 20 characters");
+                    Console.WriteLine($"Surname should be not more than 20 characters");
                 }
                 else
                 {
@@ -45,6 +44,7 @@ namespace ex1.Exercises
             }
         }
 
+        private double _salary;
         public double Salary { get; set; }
 
         public Employee()
@@ -53,21 +53,26 @@ namespace ex1.Exercises
 
         public Employee(string name, string surname, double salary)
         {
-            _name = name;
-            _surname = surname;
-            _salary = salary;
+            Name = name;
+            Surname = surname;
+            Salary = salary;
         }
 
         public void DisplayEmployeeInfo()
         {
-            Console.WriteLine($"Name:{Name}, Surname: {_surname}");
+            Console.WriteLine($"Name:{Name}, Surname: {Surname}, Salary per month: {Salary}");
         }
 
         public void GetEmployeeSalaryPerYear(double Salary)
         {
-            Console.WriteLine($"Salary: {Salary}");
+            Console.WriteLine($"Salary per year: {Salary*12}");
         }
 
+        public void GetEmployeeSalaryWithTaxes(double Salary, double tax)
+        {
+           var procent = ((Salary * 12) * tax) / 100;
+           Console.WriteLine($"Salary with taxes: {(Salary * 12)-procent}");
+        }
 
     }
 }

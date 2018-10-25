@@ -42,11 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exercises\EmployeePerformanceAnalyzer.cs" />
     <Compile Include="Exercises\EnumSchoolSubjects.cs" />
     <Compile Include="Exercises\Exercise13.cs" />
     <Compile Include="Exercises\Exercise14.cs" />
-    <Compile Include="Exercises\Exercise1OOP.cs" />
-    <Compile Include="Exercises\Exercise2OOP.cs" />
+    <Compile Include="Exercises\Student.cs" />
+    <Compile Include="Exercises\Employee.cs" />
     <Compile Include="Exercises\Exercise4.cs" />
     <Compile Include="Exercises\Exercise1.cs" />
     <Compile Include="Exercises\Exercise10.cs" />
@@ -58,11 +59,14 @@
     <Compile Include="Exercises\Exercise5.cs" />
     <Compile Include="Exercises\Exercise7.cs" />
     <Compile Include="Exercises\Exercise12.cs" />
+    <Compile Include="Exercises\Mark.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

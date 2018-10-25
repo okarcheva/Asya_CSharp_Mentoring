@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ex1.Exercises
 {
-    enum EnumSchoolSubjects
+    public enum EnumSchoolSubjects
     {
         Maths,
         Physics,
         Chemistry,
         Biology,
-        English_literature
+        Englishliterature
     } 
 }
