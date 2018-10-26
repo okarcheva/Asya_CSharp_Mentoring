@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex1", "ex1\ex1.csproj", "{56BA7A00-7778-4EA9-87DA-0F0E7F393725}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exersices", "Exersices", "{3ABE93D3-FC93-4D76-9410-2A908EAE5248}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56BA7A00-7778-4EA9-87DA-0F0E7F393725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56BA7A00-7778-4EA9-87DA-0F0E7F393725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56BA7A00-7778-4EA9-87DA-0F0E7F393725}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{56BA7A00-7778-4EA9-87DA-0F0E7F393725}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{56BA7A00-7778-4EA9-87DA-0F0E7F393725} = {3ABE93D3-FC93-4D76-9410-2A908EAE5248}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D331D33C-15E2-4BDF-AEED-67323441121E}
+	EndGlobalSection
+EndGlobal
